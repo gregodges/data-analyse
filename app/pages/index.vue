@@ -10,6 +10,6 @@ import HelloWorld from '~/components/HelloWorld.vue';
 const person : {name:string; age: number; hobbies: string[]} = {
   name: 'Greg',
   age: 33,
-  hobbies :['velo', 'tech', 'sport', 33]
+  hobbies :['velo', 'tech', 'sport']
 }
 </script>
