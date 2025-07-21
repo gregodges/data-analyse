@@ -2,3 +2,7 @@
 # . "$(dirname "$0")/_/husky.sh"
 
 npx nuxi typecheck
+if [ $? -ne 0 ]; then
+  echo "TypeScript errors detected — push aborted."
+  exit 1
+fi
